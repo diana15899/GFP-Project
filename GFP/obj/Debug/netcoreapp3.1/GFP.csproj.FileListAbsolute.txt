@@ -1,4 +1,0 @@
-C:\Users\danny134694\Source\Repos\diana15899\GFP-project\GFP\obj\Debug\netcoreapp3.1\GFP.csprojAssemblyReference.cache
-C:\Users\danny134694\Source\Repos\diana15899\GFP-project\GFP\obj\Debug\netcoreapp3.1\GFP.AssemblyInfoInputs.cache
-C:\Users\danny134694\Source\Repos\diana15899\GFP-project\GFP\obj\Debug\netcoreapp3.1\GFP.AssemblyInfo.cs
-C:\Users\danny134694\Source\Repos\diana15899\GFP-project\GFP\obj\Debug\netcoreapp3.1\GFP.csproj.CoreCompileInputs.cache
