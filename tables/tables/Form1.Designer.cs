@@ -29,30 +29,31 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("3/4\"– 54\" IPS and 3\" – 30\" DIPS .");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Measurements", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("ASTM A536, GR 65/45/12");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Material", new System.Windows.Forms.TreeNode[] {
-            treeNode3});
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Convoluted Type, Ductile Iron, 150 lb. Drilling");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Standard", new System.Windows.Forms.TreeNode[] {
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Red Oxide Primer");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Finish", new System.Windows.Forms.TreeNode[] {
-            treeNode7});
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("3/4\"– 54\" IPS and 3\" – 30\" DIPS .");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Measurements", new System.Windows.Forms.TreeNode[] {
+            treeNode9});
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("ASTM A536, GR 65/45/12");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Material", new System.Windows.Forms.TreeNode[] {
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Convoluted Type, Ductile Iron, 150 lb. Drilling");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Standard", new System.Windows.Forms.TreeNode[] {
+            treeNode13});
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Red Oxide Primer");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Finish", new System.Windows.Forms.TreeNode[] {
+            treeNode15});
+            this.gfProducts = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.treeView1 = new System.Windows.Forms.TreeView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // gfProducts
             // 
-            this.comboBox1.DisplayMember = "select product";
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.gfProducts.DisplayMember = "select product";
+            this.gfProducts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gfProducts.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.gfProducts.FormattingEnabled = true;
+            this.gfProducts.Items.AddRange(new object[] {
             "HDPE Pipe (IPPI Design-Flow®)",
             "Conventional PE Fusion Fittings",
             "Electrofusion Fittings & Equipment",
@@ -63,12 +64,12 @@
             "Steel Mechanical Fittings",
             "Flange Insulation Products",
             " "});
-            this.comboBox1.Location = new System.Drawing.Point(12, 12);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(441, 25);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.Tag = "select product";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.gfProducts.Location = new System.Drawing.Point(12, 12);
+            this.gfProducts.Name = "gfProducts";
+            this.gfProducts.Size = new System.Drawing.Size(441, 25);
+            this.gfProducts.TabIndex = 0;
+            this.gfProducts.Tag = "select product";
+            this.gfProducts.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
@@ -84,29 +85,30 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(12, 206);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node4";
-            treeNode1.Text = "3/4\"– 54\" IPS and 3\" – 30\" DIPS .";
-            treeNode2.Name = "Node0";
-            treeNode2.Text = "Measurements";
-            treeNode3.Name = "Node5";
-            treeNode3.Text = "ASTM A536, GR 65/45/12";
-            treeNode4.Name = "Node1";
-            treeNode4.Text = "Material";
-            treeNode5.Name = "Node6";
-            treeNode5.Text = "Convoluted Type, Ductile Iron, 150 lb. Drilling";
-            treeNode6.Name = "Node2";
-            treeNode6.Text = "Standard";
-            treeNode7.Name = "Node7";
-            treeNode7.Text = "Red Oxide Primer";
-            treeNode8.Name = "Node3";
-            treeNode8.Text = "Finish";
+            treeNode9.Name = "Node4";
+            treeNode9.Text = "3/4\"– 54\" IPS and 3\" – 30\" DIPS .";
+            treeNode10.Name = "Node0";
+            treeNode10.Text = "Measurements";
+            treeNode11.Name = "Node5";
+            treeNode11.Text = "ASTM A536, GR 65/45/12";
+            treeNode12.Name = "Node1";
+            treeNode12.Text = "Material";
+            treeNode13.Name = "Node6";
+            treeNode13.Text = "Convoluted Type, Ductile Iron, 150 lb. Drilling";
+            treeNode14.Name = "Node2";
+            treeNode14.Text = "Standard";
+            treeNode15.Name = "Node7";
+            treeNode15.Text = "Red Oxide Primer";
+            treeNode16.Name = "Node3";
+            treeNode16.Text = "Finish";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2,
-            treeNode4,
-            treeNode6,
-            treeNode8});
+            treeNode10,
+            treeNode12,
+            treeNode14,
+            treeNode16});
             this.treeView1.Size = new System.Drawing.Size(441, 83);
             this.treeView1.TabIndex = 2;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // Form1
             // 
@@ -115,7 +117,7 @@
             this.ClientSize = new System.Drawing.Size(636, 450);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.gfProducts);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -127,7 +129,7 @@
 
         private System.Windows.Forms.ComboBox Select;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox gfProducts;
         private System.Windows.Forms.TreeView treeView1;
     }
 }
